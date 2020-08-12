@@ -1,0 +1,9 @@
+1. Если необходимо создайте и активируте виртуальное окружение: python -m venv selenium_env
+2. Скачайте проект с репозитория
+3. Перейдите в директорю проетка (в терминале)
+4. Установите в виртуальное окружение пакеты из файла requirements.txt(если необходимо):
+        pip install -r requirements.txt
+5. Запустите тесты : pytest -v -s --tb=line 
+(pytest -s -v --tb=line --browser_name=ff) - для FireFox
+
+
